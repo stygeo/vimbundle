@@ -20,7 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{Management tool for vim plugins like Rails’ bundler command.}
   gem.description = %Q{Management tool for vim plugins like Rails’ bundler command.}
   gem.email = "stygeo@gmail.com"
-  gem.authors = ["Jeffrey Wilcke", "Dann Web"]
+  gem.authors = ["Jeffrey Wilcke", "Dan Webb"]
   gem.executable = ['vimbundle']
   # dependencies defined in Gemfile
 end
