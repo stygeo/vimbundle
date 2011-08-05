@@ -3,5 +3,8 @@ module VimBundle
     def initialize config
       @config = config
     end
+    
+    def populate!
+    end
   end
 end

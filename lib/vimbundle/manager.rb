@@ -9,6 +9,7 @@ module VimBundle
     end
 
     def install_or_update_plugins
+      @plugin_loader.populate!
     end
 
     def log str

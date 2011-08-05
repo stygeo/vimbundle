@@ -17,10 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "vimbundle"
   gem.homepage = "http://github.com/stygeo/vimbundle"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Management tool for vim plugins like Rails’ bundler command.}
+  gem.description = %Q{Management tool for vim plugins like Rails’ bundler command.}
   gem.email = "stygeo@gmail.com"
-  gem.authors = ["Jeffrey Wilcke"]
+  gem.authors = ["Jeffrey Wilcke", "Dann Web"]
+  gem.executable = ['vimbundle']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
